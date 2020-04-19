@@ -24,7 +24,7 @@ class PingMeasuring {
             System.out.println(czas + " =" + elapsedTime);
             return new Ping(czas, (int)elapsedTime);
         } else
-            System.out.println("Sorry ! We can't reach to this host");
+            System.out.println("We are sorry ! We can't reach to this host");
         return null;
     }
 
